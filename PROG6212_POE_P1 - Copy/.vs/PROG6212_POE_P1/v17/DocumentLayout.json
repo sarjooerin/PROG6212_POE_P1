@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POE_P1\\PROG6212_POE_P1 - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poe_p1\\prog6212_poe_p1 - copy\\views\\home\\coordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|solutionrelative:views\\home\\coordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poe_p1\\prog6212_poe_p1 - copy\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poe_p1\\prog6212_poe_p1 - copy\\views\\home\\claimform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|solutionrelative:views\\home\\claimform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poe_p1\\prog6212_poe_p1 - copy\\views\\home\\coordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|solutionrelative:views\\home\\coordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEC96F19-70A6-4C19-9D9E-918F40EBF5DB}|PROG6212_POE_P1.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poe_p1\\prog6212_poe_p1 - copy\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Coordinator.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POE_P1\\PROG6212_POE_P1 - Copy\\Views\\Home\\Coordinator.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Coordinator.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POE_P1\\PROG6212_POE_P1 - Copy\\Views\\Home\\Coordinator.cshtml",
               "RelativeToolTip": "Views\\Home\\Coordinator.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-17T07:30:41.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POE_P1\\PROG6212_POE_P1 - Copy\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClaimForm.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POE_P1\\PROG6212_POE_P1 - Copy\\Views\\Home\\ClaimForm.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ClaimForm.cshtml",
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Views\\Home\\ClaimForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T17:50:42.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T17:50:42.497Z"
             },
             {
               "$type": "Document",
