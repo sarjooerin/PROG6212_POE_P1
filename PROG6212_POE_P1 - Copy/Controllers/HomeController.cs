@@ -47,5 +47,10 @@ namespace PROG6212_POE_P1.Controllers
         {
             return View();
         }
+
+        public IActionResult Coordinator()
+        {
+            return View();
+        }
     }
 }

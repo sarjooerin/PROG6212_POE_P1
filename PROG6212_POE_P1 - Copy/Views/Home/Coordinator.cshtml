@@ -1,0 +1,194 @@
+﻿@{
+    ViewBag.Title = "Coordinator & Manager Dashboard";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7f9;
+    }
+
+    .dashboard-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    }
+
+        .dashboard-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+    .controls {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+        .controls label {
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .controls select {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+        table th,
+        table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        table th {
+            background-color: #007bff;
+            color: white;
+            font-weight: 600;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table tr:hover {
+            background-color: #eef5ff;
+        }
+
+    textarea {
+        width: 100%;
+        min-height: 60px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+    iframe {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .action-btn {
+        padding: 8px 14px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 2px;
+    }
+
+    .btn-approve {
+        background-color: #28a745;
+        color: #fff;
+    }
+
+        .btn-approve:hover {
+            background-color: #218838;
+        }
+
+    .btn-reject {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+        .btn-reject:hover {
+            background-color: #c82333;
+        }
+
+    .info-text {
+        margin-top: 20px;
+        text-align: center;
+        color: #555;
+        font-size: 14px;
+    }
+</style>
+
+<div class="dashboard-container">
+    <h2>Coordinator & Manager Dashboard – Review Claims</h2>
+
+    <!-- Sorting Options -->
+    <div class="controls">
+        <label>Sort Claims By:</label>
+        <select>
+            <option>Status</option>
+            <option>Date Submitted</option>
+            <option>Amount</option>
+        </select>
+    </div>
+
+    <!-- Claims Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Claim ID</th>
+                <th>Lecturer Name</th>
+                <th>Date Submitted</th>
+                <th>Hours Worked</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Supporting Document</th>
+                <th>Remarks</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Dr. Smith</td>
+                <td>2025-09-10</td>
+                <td>15</td>
+                <td>R3000</td>
+                <td class="status-pending">Pending</td>
+                <td>
+                    <iframe src="sample-document.pdf" width="200" height="150"></iframe>
+                </td>
+                <td>
+                    <textarea placeholder="Optional remarks..."></textarea>
+                </td>
+                <td>
+                    <button class="action-btn btn-approve">Approve</button>
+                    <button class="action-btn btn-reject">Reject</button>
+                </td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Prof. Lee</td>
+                <td>2025-09-12</td>
+                <td>20</td>
+                <td>R4000</td>
+                <td class="status-pending">Pending</td>
+                <td>
+                    <iframe src="sample-document.pdf" width="200" height="150"></iframe>
+                </td>
+                <td>
+                    <textarea placeholder="Optional remarks..."></textarea>
+                </td>
+                <td>
+                    <button class="action-btn btn-approve">Approve</button>
+                    <button class="action-btn btn-reject">Reject</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="info-text">
+        <p>Managers and coordinators can review claims, add remarks, and approve/reject with a single click. Supporting documents can be viewed in the system without needing to download them.</p>
+    </div>
+</div>
